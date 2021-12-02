@@ -171,18 +171,18 @@ table th {
 
 
 
-.cart-buttons {
+/* .cart-buttons {
     width: auto;
     margin-right: 0;
     margin-left: auto;
     display: flex;
     justify-content: flex-end;
     padding: 1em 0;
-}
+} */
 
-#emptycart {
+/* #emptycart {
     margin-right: 1em;
-}
+} */
 
 table td:nth-last-child(1) {
     text-align: right;
