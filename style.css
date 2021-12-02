@@ -1,0 +1,408 @@
+
+
+.bunner {
+   
+    justify-content: center;
+    display: flex;
+    
+}
+
+h5 {
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}
+
+.bunner-image img {
+    height: 70%;
+    width: 70%;
+    object-fit: contain;
+}
+
+.bunner-image h5 {
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}
+
+.about {
+    background: #F8F8F8;
+    height: 100%;
+}
+
+.about-img img {
+    height: 70%;
+    width: 70%;
+    object-fit: contain;
+}
+
+.image p {
+    font-family: 'Architects Daughter', cursive;
+}
+
+.pizza img {
+    width: 70%;
+    height: 70%;
+}
+
+
+/* Customize the label (the container) */
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+/* Hide the browser's default checkbox */
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+
+/* Create a custom checkbox */
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+/* Show the checkmark when checked */
+
+.container input:checked~.checkmark:after {
+    display: block;
+}
+
+
+/* Style the checkmark/indicator */
+
+.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+/* New Css */
+
+.product {
+    padding: 1em;
+    border: 1px solid #E0E4CC;
+    margin-right: 1em;
+    border-radius: 5px;
+}
+
+.cart-container {
+    border: 1px solid #E0E4CC;
+    border-radius: 5px;
+    margin-top: 1em;
+    padding: 1em;
+}
+
+button,
+input[type="submit"] {
+    border: 1px solid #FA6900;
+    color: #fff;
+    background: #F38630;
+    padding: 0.6em 1em;
+    font-size: 1em;
+    line-height: 1;
+    border-radius: 1.2em;
+    transition: color 0.2s ease-in-out, background 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+button:hover,
+button:focus,
+button:active,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+input[type="submit"]:active {
+    background: #A7DBD8;
+    border-color: #69D2E7;
+    color: #000;
+    cursor: pointer;
+}
+
+table {
+    margin-bottom: 1em;
+    border-collapse: collapse;
+}
+
+table td,
+table th {
+    text-align: left;
+    padding: 0.25em 1em;
+    border-bottom: 1px solid #E0E4CC;
+}
+
+#carttotals {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.cart-buttons {
+    width: auto;
+    margin-right: 0;
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em 0;
+}
+
+#emptycart {
+    margin-right: 1em;
+}
+
+table td:nth-last-child(1) {
+    text-align: right;
+}
+
+.message {
+    border-width: 1px 0px;
+    border-style: solid;
+    border-color: #A7DBD8;
+    color: #679996;
+    padding: 0.5em 0;
+    margin: 1em 0;
+}
+
+.cont {
+    text-align: center;
+}
+
+/* margin-right: 0;
+margin-left: auto;
+
+} */
+.cart-buttons {
+    width: auto;
+    margin-right: 0;
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em 0;
+}
+#emptycart {
+    margin-right: 1em;
+}
+table td:nth-last-child(1) {
+    text-align: right;
+}
+.message {
+    border-width: 1px 0px;
+    border-style: solid;
+    border-color: #A7DBD8;
+    color: #679996;
+    padding: 0.5em 0;
+    margin: 1em 0;
+}
+.cont {
+    text-align: center;
+    
+}
+/* margin-right: 0;
+margin-left: auto; */
+
+
+.cart-buttons {
+    width: auto;
+    margin-right: 0;
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em 0;
+}
+#emptycart {
+    margin-right: 1em;
+}
+table td:nth-last-child(1) {
+    text-align: right;
+}
+.message {
+    border-width: 1px 0px;
+    border-style: solid;
+    border-color: #A7DBD8;
+    color: #679996;
+    padding: 0.5em 0;
+    margin: 1em 0;
+}
+.cont {
+    text-align: center;
+}
+/* margin-right: 0;
+margin-left: auto; */
+
+.cart-buttons {
+    width: auto;
+    margin-right: 0;
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em 0;
+}
+#emptycart {
+    margin-right: 1em;
+}
+table td:nth-last-child(1) {
+    text-align: right;
+}
+.message {
+    border-width: 1px 0px;
+    border-style: solid;
+    border-color: #A7DBD8;
+    color: #679996;
+    padding: 0.5em 0;
+    margin: 1em 0;
+}
+.cont {
+    text-align: center;
+}
+/* margin-right: 0;
+margin-left: auto; */
+
+
+.cart-buttons {
+    width: auto;
+    margin-right: 0;
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em 0;
+}
+#emptycart {
+    margin-right: 1em;
+}
+table td:nth-last-child(1) {
+    text-align: right;
+}
+.message {
+    border-width: 1px 0px;
+    border-style: solid;
+    border-color: #A7DBD8;
+    color: #679996;
+    padding: 0.5em 0;
+    margin: 1em 0;
+}
+.cont {
+    text-align: center;
+}
+/* margin-right: 0;
+margin-left: auto; */
+
+
+.cart-buttons {
+    width: auto;
+    margin-right: 0;
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em 0;
+}
+#emptycart {
+    margin-right: 1em;
+}
+table td:nth-last-child(1) {
+    text-align: right;
+}
+.message {
+    border-width: 1px 0px;
+    border-style: solid;
+    border-color: #A7DBD8;
+    color: #679996;
+    padding: 0.5em 0;
+    margin: 1em 0;
+}
+.cont {
+    text-align: center;
+}
+/* margin-right: 0;
+margin-left: auto; */
+
+.cart-buttons {
+    width: auto;
+    margin-right: 0;
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em 0;
+}
+#emptycart {
+    margin-right: 1em;
+}
+table td:nth-last-child(1) {
+    text-align: right;
+}
+.message {
+    border-width: 1px 0px;
+    border-style: solid;
+    border-color: #A7DBD8;
+    color: #679996;
+    padding: 0.5em 0;
+    margin: 1em 0;
+}
+.cont {
+    text-align: center;
+}
+/* margin-right: 0;
+margin-left: auto;
+
+} */
+.cart-buttons {
+    width: auto;
+    margin-right: 0;
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em 0;
+}
+#emptycart {
+    margin-right: 1em;
+}
+table td:nth-last-child(1) {
+    text-align: right;
+}
+.message {
+    border-width: 1px 0px;
+    border-style: solid;
+    border-color: #A7DBD8;
+    color: #679996;
+    padding: 0.5em 0;
+    margin: 1em 0;
+}
+.cont {
+    text-align: center;
+}
