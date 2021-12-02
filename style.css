@@ -145,7 +145,7 @@ input[type="submit"] {
     transition: color 0.2s ease-in-out, background 0.2s ease-in-out, border-color 0.2s ease-in-out;
 }
 
-button:hover,
+/* button:hover,
 button:focus,
 button:active,
 input[type="submit"]:hover,
@@ -155,7 +155,7 @@ input[type="submit"]:active {
     border-color: #69D2E7;
     color: #000;
     cursor: pointer;
-}
+} */
 
 table {
     margin-bottom: 1em;
