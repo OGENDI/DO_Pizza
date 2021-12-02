@@ -184,22 +184,18 @@ table th {
     margin-right: 1em;
 } */
 
-table td:nth-last-child(1) {
-    text-align: right;
-}
-
-.message {
+/* ?.message {
     border-width: 1px 0px;
     border-style: solid;
     border-color: #A7DBD8;
     color: #679996;
     padding: 0.5em 0;
     margin: 1em 0;
-}
+} */
 
-.cont {
+/* .cont {
     text-align: center;
-}
+} */
 
 /* margin-right: 0;
 margin-left: auto;
