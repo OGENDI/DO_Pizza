@@ -61,7 +61,13 @@ h5 {
     user-select: none;
 }
 
+.one {
+    background-color: bisque;
+}
 
+.two {
+    background-color: blanchedalmond;
+}
 /* Hide the browser's default checkbox */
 
 .container input {
