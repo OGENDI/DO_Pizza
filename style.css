@@ -157,17 +157,17 @@ input[type="submit"]:active {
     cursor: pointer;
 } */
 
-table {
+/* table {
     margin-bottom: 1em;
     border-collapse: collapse;
-}
+} */
 
-table td,
+/* table td,
 table th {
     text-align: left;
     padding: 0.25em 1em;
     border-bottom: 1px solid #E0E4CC;
-}
+} */
 
 
 
